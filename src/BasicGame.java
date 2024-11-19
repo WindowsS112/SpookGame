@@ -120,6 +120,7 @@ public class BasicGame implements GameLoop {
                     playerY < obstacle.y + obstacle.height &&
                     playerY + playerHeight > obstacle.y) {
                 System.exit(0);
+                // TEST GITHUB UPDATE 1.1
             }
 
             // Verwijder obstakels buiten het scherm
